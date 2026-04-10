@@ -8,18 +8,12 @@ import openpyxl
 
 # 1. Define your update data
 updates = {
-    "BA3122": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
-    "BA3119": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
-    "BA3120": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
-    "BA3062": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
-    "BA3053": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
-    "BA3054": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
-    "BA3055": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
-    "BA3056": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
-    "BA3063": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
+    "BA3111": {"horse reg": "ADE7991ZM", "trailer reg": "ADE7982ZM"},
+    "BA3110": {"horse reg": "ADE7991ZM", "trailer reg": "ADE7982ZM"},
+    "BA3108": {"horse reg": "ADE7991ZM", "trailer reg": "ADE7982ZM"},
 }
 
-file_path = r'C:\Users\Jason\Projects\TRACKING-FILE-UPDATE\BARTRAC - CONGO TRACKING UPD4 10-04-2026.xlsx'
+file_path = r'C:\Users\Jason\Projects\TRACKING-FILE-UPDATE\BARTRAC - CONGO TRACKING UPD5 10-04-2026.xlsx'
 target_sheet_name = 'current shipments'
 
 wb = openpyxl.load_workbook(file_path)
