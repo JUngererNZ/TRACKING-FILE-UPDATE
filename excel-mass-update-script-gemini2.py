@@ -8,12 +8,13 @@ import openpyxl
 
 # 1. Define your update data
 updates = {
-    "BA3111": {"horse reg": "ADE7991ZM", "trailer reg": "ADE7982ZM"},
-    "BA3110": {"horse reg": "ADE7991ZM", "trailer reg": "ADE7982ZM"},
-    "BA3108": {"horse reg": "ADE7991ZM", "trailer reg": "ADE7982ZM"},
+    "BA3059": {"horse reg": "BCH9942ZM", "trailer reg": "BCB9847ZM / BCB9862ZM"},
+    "BA3060": {"horse reg": "BCH9942ZM", "trailer reg": "BCB9847ZM / BCB9862ZM"},
+    "BA3057": {"horse reg": "BCH9942ZM", "trailer reg": "BCB9847ZM / BCB9862ZM"},
+    "BA3064": {"horse reg": "BCH9942ZM", "trailer reg": "BCB9847ZM / BCB9862ZM"},
 }
 
-file_path = r'C:\Users\Jason\Projects\TRACKING-FILE-UPDATE\BARTRAC - CONGO TRACKING UPD5 10-04-2026.xlsx'
+file_path = r'C:\Users\Jason\Projects\TRACKING-FILE-UPDATE\BARTRAC - CONGO TRACKING UPD6 10-04-2026.xlsx'
 target_sheet_name = 'current shipments'
 
 wb = openpyxl.load_workbook(file_path)
