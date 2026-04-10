@@ -8,10 +8,15 @@ import openpyxl
 
 # 1. Define your update data
 updates = {
-    "BA3123": {"horse reg": "BCH9942ZM", "trailer reg": "BCB9847ZM / BCB9862ZM"},
-    "BA3121": {"horse reg": "BCH9942ZM", "trailer reg": "BCB9847ZM / BCB9862ZM"},
-    "BA3107": {"horse reg": "BCH9942ZM", "trailer reg": "BCB9847ZM / BCB9862ZM"},
-    "BA3061": {"horse reg": "BCH9942ZM", "trailer reg": "BCB9847ZM / BCB9862ZM"},
+    "BA3122": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
+    "BA3119": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
+    "BA3120": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
+    "BA3062": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
+    "BA3053": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
+    "BA3054": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
+    "BA3055": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
+    "BA3056": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
+    "BA3063": {"horse reg": "BCJ1181ZM", "trailer reg": "BBC7625ZM / BBC7624ZM"},
 }
 
 file_path = r'C:\Users\Jason\Projects\TRACKING-FILE-UPDATE\BARTRAC - CONGO TRACKING UPD4 10-04-2026.xlsx'
