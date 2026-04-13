@@ -1,9 +1,9 @@
 import openpyxl
 from copy import copy
 
-file_path = r'C:\Users\Jason\Projects\TRACKING-FILE-UPDATE\BARTRAC - CONGO TRACKING UPD11 10-04-2026.xlsx'
+file_path = r'C:\Users\Jason\Projects\TRACKING-FILE-UPDATE\BARTRAC - CONGO TRACKING UPD12 10-04-2026.xlsx'
 target_sheet_name = 'current shipments'
-target_horse = 'BCJ1334ZM'
+target_horse = 'BCJ1335ZM'
 
 wb = openpyxl.load_workbook(file_path)
 
